@@ -314,7 +314,9 @@ self.addEventListener("fetch", (event) => {
     done();
   });
 
-  const { handler } = (await import("./dist/server/entry.mjs")) as {
+  // Astro generates this module after the pre-build type check.
+  const serverEntryUrl = new URL("./dist/server/entry.mjs", import.meta.url);
+  const { handler } = (await import(serverEntryUrl.href)) as {
     handler: (req: unknown, res: unknown, next?: () => void) => void;
   };
   await app

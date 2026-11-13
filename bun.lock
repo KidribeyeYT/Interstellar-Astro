@@ -15,7 +15,7 @@
         "@fastify/static": "^8.2.0",
         "@mercuryworkshop/bare-mux": "2.1.8",
         "@mercuryworkshop/epoxy-transport": "2.1.28",
-        "@mercuryworkshop/scramjet": "https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz",
+        "@mercuryworkshop/scramjet": "2.0.0-alpha",
         "@mercuryworkshop/wisp-js": "^0.4.1",
         "@playform/compress": "^0.2.0",
         "astro": "5.17.1",
@@ -41,8 +41,6 @@
         "@types/react-dom": "19.2.3",
         "autoprefixer": "^10.4.23",
         "postcss": "^8",
-        "prettier": "^3.4.2",
-        "prettier-plugin-astro": "^0.14.1",
         "tailwindcss": "^3.4.19",
       },
     },
@@ -304,7 +302,7 @@
 
     "@mercuryworkshop/epoxy-transport": ["@mercuryworkshop/epoxy-transport@2.1.28", "", { "dependencies": { "@mercuryworkshop/epoxy-tls": "2.1.18-1" } }, "sha512-lv/Kfdn37y8ZCXQaIT3Ebj4OSztBqeXdbR9rchbHQBKIw/fNSQJLGNBHV5ScXSzqt7NCwv8ZiZx7urRyk7Ua/Q=="],
 
-    "@mercuryworkshop/scramjet": ["@mercuryworkshop/scramjet@https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz", { "dependencies": { "@mercuryworkshop/bare-mux": "^2.1.7", "dom-serializer": "^2.0.0", "domhandler": "^5.0.3", "domutils": "^3.2.2", "htmlparser2": "10.0.0", "idb": "^8.0.3", "parse-domain": "^8.2.2", "set-cookie-parser": "^2.7.1" } }, "sha512-W4Ii08sBfq8kxC8aNj1NjWPgmo5jigKmCHBWLgJITDGVJv56InqUroqgz0wv9GjwraXzroGyYEb/QasRBQ8mcA=="],
+    "@mercuryworkshop/scramjet": ["@mercuryworkshop/scramjet@2.0.0-alpha", "", { "dependencies": { "@mercuryworkshop/epoxy-tls": "2.1.18-1", "dom-serializer": "^2.0.0", "domhandler": "^5.0.3", "domutils": "^3.2.2", "htmlparser2": "10.0.0", "parse-domain": "^8.2.2", "set-cookie-parser": "^2.7.1" } }, "sha512-+tAWkKJX4rjsRMWW2vNckzXq3qn/rDcj6ohGJNSEn6O0jqvQvFSgDoCqwPaHjjmBSFXlh8MucL7Dpi0ZX5e/GA=="],
 
     "@mercuryworkshop/wisp-js": ["@mercuryworkshop/wisp-js@0.4.1", "", { "dependencies": { "bufferutil": "^4.0.9", "commander": "^14.0.2", "ipaddr.js": "^2.3.0", "ws": "^8.18.3" }, "bin": { "wisp-js-server": "src/bin/server_cli.mjs" } }, "sha512-104LwiXiuhti/e32gmv0Da0u0yuLFDHX8JawCzleTPWJ5t5qTX4EYi4E7/ucbjBPN9wwVPWHE5g5yGqzl/NzQA=="],
 
@@ -757,8 +755,6 @@
     "http-cache-semantics": ["http-cache-semantics@4.2.0", "", {}, "sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ=="],
 
     "http-errors": ["http-errors@2.0.1", "", { "dependencies": { "depd": "~2.0.0", "inherits": "~2.0.4", "setprototypeof": "~1.2.0", "statuses": "~2.0.2", "toidentifier": "~1.0.1" } }, "sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ=="],
-
-    "idb": ["idb@8.0.3", "", {}, "sha512-LtwtVyVYO5BqRvcsKuB2iUMnHwPVByPCXFXOpuU96IZPPoPN6xjOGxZQ74pgSVVLQWtUOYgyeL4GE98BY5D3wg=="],
 
     "ieee754": ["ieee754@1.2.1", "", {}, "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA=="],
 
